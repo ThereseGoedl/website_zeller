@@ -1,0 +1,45 @@
+
+/* * {background-color: black;} */
+/*line above is used to set background
+color for the entire website.
+in order to do that the (*) is used.
+(*) is the universal selector */
+h1 {
+    background-color: rgb(216, 210, 210);
+    text-align: center;
+    line-height:1.5       
+}
+body {background-color: mintcream   }
+.intro {
+    line-height:  1.5;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.diff {
+    line-height:  1.5;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.list {
+    font-size: large;
+    list-style-position: inside;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+
